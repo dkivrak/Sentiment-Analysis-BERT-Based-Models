@@ -16,3 +16,7 @@ The objective is to evaluate transformer-based language models’ effectiveness 
 - IMDb (`data/imdb_train.csv`) — general movie reviews  
 - Yelp (`data/yelp_train.csv`) — restaurant reviews  
 - Amazon (`data/amazon_train.csv`) — combined product titles and content in a custom format
+
+## Side Notes
+Due to hardware limitations, the original datasets have been reduced in size, and hyperparameters have been tuned conservatively.
+You can contact me for any questions or feedback.
