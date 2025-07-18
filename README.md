@@ -22,14 +22,18 @@ Due to hardware limitations, the original datasets have been reduced in size, an
 You can contact me for any questions or feedback.
 
 
-## Project Structure
+## Project Structure
 
-├── data/                       # Dataset CSV files
-├── train.py                    # Training script
-├── run_experiment.py           # Script to run all experiments in loops
-├── preprocessing.py            # Data loading and tokenization utilities
-├── model.py                    # Model definition class
-├── evaluate.py                 # Model evaluation script 
-├── evaluate_all.py
-├── requirements.txt            # Project dependencies
-└── README.md                   # Project overview (this file)
+data/               # Dataset CSV files
+├── imdb_train.csv
+├── yelp_train.csv
+├── amazon_train.csv
+
+preprocessing.py    # Data loading and tokenization utilities  
+model.py            # Model definition class  
+train.py            # Training script  
+run_experiment.py   # Script to run all experiments in loops  
+evaluate.py         # Model evaluation script  
+evaluate_all.py     # Evaluate multiple models  
+requirements.txt    # Project dependencies  
+README.md           # Project overview (this file)
