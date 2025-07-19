@@ -2,7 +2,7 @@
 A project comparing 5 different BERT-based models for sentiment analysis.
 
 ## Purpose
-The objective is to evaluate transformer-based language models’ effectiveness in sentiment analysis and to compare their results across different datasets.
+The objective is to evaluate transformer-based language models’ effectiveness in sentiment analysis and to compare their results.
 
 
 ## Models Used
@@ -12,10 +12,8 @@ The objective is to evaluate transformer-based language models’ effectiveness 
 - `xlm-roberta-base`
 - `albert-base-v2`
 
-## Datasets Used
-- IMDb (`data/imdb_train.csv`) — general movie reviews  
-- Yelp (`data/yelp_train.csv`) — restaurant reviews  
-- Amazon (`data/amazon_train.csv`) — combined product titles and content in a custom format
+## Dataset Used
+- IMDb (`data/imdb_train.csv`) — general movie reviews                                            Dataset Link: https://huggingface.co/datasets/stanfordnlp/imdb
 
 ## Side Notes
 Due to hardware limitations, the original datasets have been reduced in size, and hyperparameters have been tuned conservatively.
@@ -26,8 +24,7 @@ You can contact me for any questions or feedback.
 
 data/               # Dataset CSV files
 ├── imdb_train.csv
-├── yelp_train.csv
-├── amazon_train.csv
+
 
 preprocessing.py    # Data loading and tokenization utilities  
 model.py            # Model definition class  
