@@ -60,15 +60,15 @@ You can contact me for any questions or feedback.
 -IMDB was hardest (long, nuanced reviews).
 
 ## Installation
-# Clone repo
+ Clone repo
 git clone https://github.com/dkivrak/Sentiment-Analysis-BERT-Based-Models.git
 cd Sentiment-Analysis-BERT-Based-Models
 
-# Install dependencies
+ Install dependencies
 pip install -r requirements.txt
 
-# Run training
+ Run training
 python run_experiment.py
 
-# Evaluate results
+ Evaluate results
 python evaluate.py --model bert-base-uncased
